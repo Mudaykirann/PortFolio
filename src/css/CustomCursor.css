@@ -1,0 +1,35 @@
+/* Custom cursor styles for the dot */
+.custom-cursor-dot {
+    position: fixed;
+    width: 8px;
+    /* Size of the dot */
+    height: 8px;
+    /* Size of the dot */
+    background-color: #d1d1d1;
+    border-radius: 50%;
+    pointer-events: none;
+    /* Ensures it doesn't interfere with clicks */
+    transform: translate(-50%, -50%);
+    /* Center the dot around the mouse */
+    z-index: 9999;
+    /* Stay on top */
+}
+
+/* Custom cursor styles for the trailing circle */
+.custom-cursor-trail {
+    position: fixed;
+    width: 40px;
+    /* Size of the trailing circle */
+    height: 40px;
+    /* Size of the trailing circle */
+    border: 2px solid #333;
+    /* Border for the trailing circle */
+    border-radius: 50%;
+    /* Rounded shape */
+    pointer-events: none;
+    /* Ensures it doesn't interfere with clicks */
+    transform: translate(-50%, -50%);
+    /* Center the cursor around the mouse */
+    z-index: 999;
+    /* Slightly lower than the dot */
+}
