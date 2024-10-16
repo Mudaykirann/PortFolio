@@ -1,6 +1,6 @@
-import { FaDiscord, FaPhone, FaTelegram, FaWhatsapp } from "react-icons/fa";
+import { FaDiscord, FaPhone, FaTelegram, FaWhatsapp } from "react-icons/fa"
 
-function Footer() {
+function Footerpage() {
     return (
         <section className="container touch">
             <h3>Get in Touch</h3>
@@ -16,4 +16,4 @@ function Footer() {
     )
 }
 
-export default Footer;
+export default Footerpage

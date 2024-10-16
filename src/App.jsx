@@ -4,9 +4,9 @@ import FinalFooter from './components/FinalFooter'
 import Home from './components/Home'
 import Navbar from './components/Navbar'
 import Aboutme from './pages/Aboutme'
+import Footerpage from './pages/Footerpage'
 import Skillset from './pages/Skillset'
 import Work from './pages/Work'
-import Footer from './pages/footer'
 
 function App() {
 
@@ -19,7 +19,7 @@ function App() {
         <Aboutme />
         <Work />
         <Skillset />
-        <Footer />
+        <Footerpage />
         <FinalFooter />
       </div>
     </>
